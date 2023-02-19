@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: black;
+    /* padding: 0 64px 0 64px; */
+    font-family: "Roboto", "Sans Serif";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    border-bottom: 1px solid #144270;
+}
+
+nav > li {
+    padding: 15px;
+    height: auto;
+}
+
+#mfont-16{
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#mfont-12{
+    font-size: 10px;
+}
+
+#mylogo {
+    display: flex;
+    align-items: row;
+    line-height: 16px;
+}
+
+#mylogo > img {
+    width: 100%;
+}
+
+#mylogo-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

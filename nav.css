@@ -20,28 +20,32 @@ nav > li {
     height: auto;
 }
 
-.font-16{
+#mfont-16{
     font-size: 16px;
     font-weight: 900;
 }
 
-.font-12{
+#mfont-12{
     font-size: 12px;
 }
 
-.logo {
-    width: auto;
+#mylogo {
     display: flex;
+    align-items: row;
     line-height: 16px;
 }
 
-.logo-text {
+#mylogo > img {
+    width: 100%;
+}
+
+#mylogo-text {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
 }
 
-.navbar ul li a:hover {
-    color: #144270;
+a {
+    text-decoration: none;
+    color: inherit;
 }
-
