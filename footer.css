@@ -1,0 +1,38 @@
+body {
+    /* padding: 0 64px 0 64px; */
+    font-family: "Roboto", "Sans Serif";
+}
+
+.font-16{
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 16px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.text-dec {
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px 0px;
+}
