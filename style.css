@@ -127,16 +127,17 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 0px 150px;
+    padding: 0px 64px;
     gap: 54px;
-    width: 100%;
+    width: auto;
     height: auto;
     margin-bottom: 100px;
 }
 
 .container4 > img {
-    width: 100%;
+    width: 20%;
 }
+
 
 .container5 {
     display: flex;

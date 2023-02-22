@@ -46,6 +46,11 @@ body {
     height: auto;
 }
 
+.container1-right > img {
+    width: 100%;
+    border-radius: 20px;
+}
+
 .container2 {
     width: 100%;
     display: flex;
