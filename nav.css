@@ -28,11 +28,10 @@ nav > li {
 #mylogo {
     display: flex;
     align-items: row;
-    line-height: 16px;
 }
 
 #mylogo > img {
-    width: 100%;
+    width: 50px;
 }
 
 #mylogo-text {
@@ -44,4 +43,46 @@ nav > li {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+@media screen and (max-width:460px) {
+    #mfont-16{
+        font-size: 14px;
+        font-weight: 900;
+    }
+    
+    #mfont-12{
+        font-size: 10px;
+    }
+    
+    #mylogo > img {
+        width: 50px;
+    }
+    
+    #mylogo-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:800px) and (min-width:461px) {
+    #mfont-16{
+        font-size: 12px;
+        font-weight: 900;
+    }
+    
+    #mfont-12{
+        font-size: 10px;
+    }
+    
+    #mylogo > img {
+        width: 50px;
+    }
+    
+    #mylogo-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
 }
