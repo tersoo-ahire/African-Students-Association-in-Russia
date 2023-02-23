@@ -413,6 +413,57 @@ body {
     border-radius: 10px;
 }
 
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 32px;
+    
+    width: 100%;
+    height: auto;
+    
+    background: #B9D1F0;
+    margin-bottom: 50px;
+}
+
+.pricing-container-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 15px;
+    
+    width: 100%;
+    height: auto;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    width: 100%;
+    height: auto;
+    
+    /* Primary */
+    
+    border: 1px solid #144270;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.pricing-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    gap: 5px;
+}
 
 .h1style {
     width: 100%;
@@ -512,6 +563,40 @@ body {
     color: #FFFFFF;
 }
 
+.p5style {
+    height: 24px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 48% */
+    
+    letter-spacing: 0.04em;
+    color: #25262A;
+}
+
+.p6style {
+    height: 24px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #25262A;
+}
+
+.p7style {
+    width: 75%;
+    height: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #25262A;
+}
+
 .button {
     display: flex;
     flex-direction: row;
@@ -580,4 +665,11 @@ body {
     border-radius: 5px;
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+.hr2 {
+    width: 120px;
+    margin: 0 auto;
+    border: 1px solid #144270;
+    margin-bottom: 20px;   
 }
