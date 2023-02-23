@@ -210,9 +210,7 @@ body {
 .container7-left {
     display: flex;
     flex-direction: column;
-    padding: 55px;
     gap: 11px;
-
     width: 50%;
     height: auto;
 }
@@ -221,7 +219,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 55px;
     gap: 20px;
     width: 100%;
     height: auto;
@@ -236,12 +234,19 @@ body {
     height: auto;
 }
 
-.container7-right > h2 {
-    display: none;
+.container7-right-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    height: 500px;
+    background-image: url('images/mallet.png');
+    background-size: cover;   
 }
 
-.container7-right > img {
-    width: 100%;
+.container7-right-sub > h2 {
+    display: none;
 }
 
 .container8 {

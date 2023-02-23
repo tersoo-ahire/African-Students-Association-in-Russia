@@ -11,6 +11,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- Tablet Stylesheet -->
+    <link rel="stylesheet" media="(max-width:900px) and (min-width:461px)" href="tablet.css">
     <!-- Mobile stylesheet -->
     <link rel="stylesheet"  media="(max-width:460px)" href="mobile.css">
     <!-- Navigation on mobile -->
@@ -22,15 +24,15 @@
     <title>Constitution</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-white fixed-top">
+      <nav class="navbar navbar-expand-md bg-white fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand logo" href="index.html">
-                <img src="images\asa-removebg.png" style="width:50px" alt="Logo">
-                <span class="logo-text">
-                    <span class="font-16">AFRICAN STUDENTS</span>
-                    <span class="font-16">ASSOCIATION IN RUSSIA</span>
-                    <span class="font-12">Motto: Unity, Peace and Development.</span>
-                </span> 
+            <a id="mylogo" href="index.html">
+                <img src="./images/asa-removebg.png" width="50px" alt="Logo">
+                <div id="mylogo-text">
+                    <div id="mfont-16">AFRICAN STUDENTS</div>
+                    <div id="mfont-16">ASSOCIATION IN RUSSIA</div>
+                    <div id="mfont-12">Motto: Unity, Peace and Development.</div>
+                </div> 
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -51,7 +53,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="finance.html">Finance</a>
-                    </li>
                     </li>
                 </ul>
             </div> 
@@ -80,8 +81,10 @@
             </div>
         </div>
         <div class="container7-right">
+          <div class="container7-right-sub">
             <h2 class="h2style">Our Constitution</h2>
-            <img src="images/mallet.png" alt="image of mallet">
+            <!-- <img src="images/mallet.png" alt="image of mallet"> -->
+          </div>
         </div>
     </div>
     <!-- Footer -->
