@@ -458,6 +458,11 @@ body {
     height: auto;
 }
 
+.album-images > img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
 .container11 {
     display: flex;
     flex-direction: column;
