@@ -164,7 +164,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0px 10px;
+    padding: 0px;
     width: 55%;
     height: auto;
 }
@@ -370,10 +370,10 @@ body {
 
 .album-tag {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
     padding: 0px;
     gap: 20px;
     
@@ -386,7 +386,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 32px;
 }
 
 .tags2 {
@@ -394,7 +394,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 32px;
 }
 
 .album-images {
